@@ -60,8 +60,8 @@ gem 'secure_headers'
 gem 'gravtastic'
 
 # Adds pagination support to models
-gem 'kaminari'
-gem 'bootstrap-kaminari-views'
+gem 'kaminari', '>= 1.2.1'
+gem 'bootstrap-kaminari-views', '>= 0.0.5'
 
 
 # Add comments on any model
