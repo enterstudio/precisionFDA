@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'bundler', '1.13.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails', '6.0.3.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -61,7 +61,7 @@ gem 'gravtastic'
 
 # Adds pagination support to models
 gem 'kaminari'
-gem 'bootstrap-kaminari-views'
+gem 'bootstrap-kaminari-views', '>= 0.0.5'
 
 
 # Add comments on any model
