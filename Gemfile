@@ -73,7 +73,7 @@ gem 'acts-as-taggable-on'
 # For inline-css in emails
 gem 'inky-rb', require: 'inky'
 gem 'nokogiri'
-gem 'premailer-rails'
+gem 'premailer-rails', '>= 1.9.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
