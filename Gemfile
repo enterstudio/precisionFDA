@@ -24,7 +24,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 
 # Annotate models
 gem 'annotate', '~> 2.6.6'
@@ -73,7 +73,7 @@ gem 'acts-as-taggable-on'
 # For inline-css in emails
 gem 'inky-rb', require: 'inky'
 gem 'nokogiri'
-gem 'premailer-rails'
+gem 'premailer-rails', '>= 1.9.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
