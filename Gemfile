@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'bundler', '1.13.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails', '5.2.8.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Annotate models
-gem 'annotate', '~> 2.6.6'
+gem 'annotate', '~> 2.7.0'
 
 # Support for OR queries (needed for UserFile.accessible_by)
 gem 'activerecord_any_of'
