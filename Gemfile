@@ -4,30 +4,30 @@ source 'https://rubygems.org'
 gem 'bundler', '1.13.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails', '6.1.7.3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '>= 2.7.2'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.2.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
 # Turnout gem is used to manage maintenance pages
-gem 'turnout', '~> 2.2.0'
+gem 'turnout', '~> 2.4.0'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', '~> 2.6', '>= 2.6.4'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 
 # Annotate models
-gem 'annotate', '~> 2.6.6'
+gem 'annotate', '~> 2.7.5'
 
 # Support for OR queries (needed for UserFile.accessible_by)
 gem 'activerecord_any_of'
@@ -54,13 +54,13 @@ gem "humanizer"
 gem 'axlsx'
 
 # Secure headers
-gem 'secure_headers'
+gem 'secure_headers', '>= 3.9.0'
 
 # Gravatar profile image helper
 gem 'gravtastic'
 
 # Adds pagination support to models
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.1'
 gem 'bootstrap-kaminari-views'
 
 
@@ -72,8 +72,8 @@ gem 'acts-as-taggable-on'
 
 # For inline-css in emails
 gem 'inky-rb', require: 'inky'
-gem 'nokogiri'
-gem 'premailer-rails'
+gem 'nokogiri', '>= 1.13.9'
+gem 'premailer-rails', '>= 1.10.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -86,7 +86,7 @@ group :development do
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
@@ -97,7 +97,7 @@ group :development, :test do
   gem 'sqlite3'
 
   # Use thin
-  gem 'thin'
+  gem 'thin', '>= 1.7.0'
 
   # Manage environment variables
   gem 'figaro'
