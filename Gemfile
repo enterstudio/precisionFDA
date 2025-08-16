@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'bundler', '1.13.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails', '7.1.5.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -27,16 +27,16 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Annotate models
-gem 'annotate', '~> 2.6.6'
+gem 'annotate', '~> 3.2.0'
 
 # Support for OR queries (needed for UserFile.accessible_by)
-gem 'activerecord_any_of'
+gem 'activerecord_any_of', '>= 2.0'
 
 # Parameter validation for the API
 gem 'rails_param'
 
 # WiceGrid is a Rails grid plugin: https://github.com/leikind/wice_grid
-gem "wice_grid"
+gem "wice_grid", ">= 4.1.0"
 
 # Page-specific javascript for Rails done right
 gem "paloma", "5.0.0"
@@ -68,7 +68,7 @@ gem 'bootstrap-kaminari-views'
 gem 'acts_as_commentable_with_threading'
 gem 'acts_as_votable'
 gem 'acts_as_follower'
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '>= 5.0.0'
 
 # For inline-css in emails
 gem 'inky-rb', require: 'inky'
